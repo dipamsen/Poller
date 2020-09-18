@@ -1,0 +1,22 @@
+{
+  "name": "poller",
+  "version": "1.0.0",
+  "description": "Polling Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": "github:dipamsen/Poller",
+  "author": "Dipam Sen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dipamsen/Poller/issues"
+  },
+  "homepage": "https://github.com/dipamsen/Poller#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nedb": "^1.8.0",
+    "unique-string": "^2.0.0"
+  }
+}
